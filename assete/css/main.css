@@ -395,7 +395,7 @@ li {
     color: #eee;
     font-size: 1.5rem;
     line-height: 1.7;
-    width: 45rem;
+    /* width: 45rem; */
 }
 
 .FooterIconContainer{
