@@ -1,9 +1,10 @@
 .Flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .Wrap{
-    flex-direction: wrap;
+    flex-wrap: wrap;
 }
 
 .Column{
@@ -23,7 +24,7 @@
 
 /* ________________ Muli-Uses Classes Styling ________________ */
 
-.relative{
+.Relative{
     position: relative;
 }
 
@@ -130,4 +131,21 @@
 }
 .MarginBottom11rem{
     margin-bottom: 11rem;
+}
+
+/* Show menu */
+.ShowMenu {
+    opacity: 1 !important;
+    top: 3.5rem;
+    pointer-events: initial;
+}
+
+  /* Show icon */
+.ShowIcon .NavBurger {
+    opacity: 0;
+    transform: rotate(90deg);
+}
+.ShowIcon .NavClose {
+    opacity: 1;
+    transform: rotate(90deg);
 }

@@ -1,0 +1,188 @@
+/* For screens with a max-width of 37.5em (600px) */
+@media only screen and (max-width: 37.5em) {
+
+    /* ******** nav toggle styling ******** */
+    .NavToggle{
+        display: block;
+        position: relative;
+        width: 5rem;
+    }
+    .NavBurger, 
+    .NavClose {
+        position: absolute;
+        width: max-content;
+        height: max-content;
+        inset: 0;
+        margin: auto;
+        font-size: 2.5rem;
+        cursor: pointer;
+        transition: opacity .1s, transform .4s;
+    }
+
+    .NavClose {
+        opacity: 0;
+    }
+
+    .NavList{
+        display:flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    .NavMenu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        opacity: 0;
+    }
+    
+    .HeroHeader {
+        font-size: 4.5rem;
+    }
+
+    #header::after {
+        top: calc(100% + 1.2rem);
+    }
+
+    .HeaderSub {
+        font-size: 1.8rem;
+    }
+
+    .HeroDescription {
+        font-size: 2rem;
+    }
+
+    #hero {
+        height: unset;
+        min-height: unset;
+    }
+
+    .HeroScroll {
+        display: none;
+    }
+
+    .HeroContainer {
+        padding: 19rem 0 13rem 0;
+        margin: auto;
+        position: static;
+        transform: translate(0, 0);
+    }
+
+    .MainContainer h2 {
+        font-size: 2.4rem;
+    }
+
+    .ProjectSub {
+        font-size: 1.7rem;
+    }
+
+    .ContactForm {
+        padding: 3rem;
+    }
+
+    .FormField {
+        margin-bottom: 3rem;
+    }
+
+    .FormSubmit {
+        width: 100%;
+    }
+
+    .ProjectGlory {
+        height: unset;
+        min-height: unset;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ProjectGlory .ProjectRow {
+        padding: 19rem 0 13rem 0;
+        margin: auto;
+        position: static;
+        transform: translate(0, 0);
+
+    }
+
+    .ProjectHeader {
+        font-size: 2.4rem;
+    }
+
+    .Buttons.ButtonBlue {
+        margin-right: 0;
+        width: 70%;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .FooterMain {
+        display: block;
+    }
+
+}
+
+
+/* For screens with a max-width of 56.25em (900px) */
+@media only screen and (max-width: 56.25em) {
+    /* html {
+        font-size: 56%;
+    } */
+
+    .HeroSocial {
+        display: none;
+    }
+
+    .ProjectRow {
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        margin-bottom: 8rem;
+    }
+
+    .ProjectRow {
+        text-align: center;
+    }
+
+    .ProjectRow .ProjectInfo {
+        align-items: center;
+    }
+
+    .NavContainer {
+        padding: 0 2rem;
+    }
+
+    .LogoFrame {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1.2rem;
+    }
+
+    .FooterMain {
+        padding: 6rem 0;
+    }
+
+    .FooterSecond {
+        margin-bottom: 5rem;
+    }
+
+    .FooterSecond .FooterIconContainer {
+        width: 100%;
+    }
+
+    .FooterSecond .FooterMain {
+        padding: 3.5rem 0;
+    }
+}
+
+/* For screens with a max-width of 75em (1200px) */
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 59%;
+    }
+}
+
+/* For screens with a min-width of 112.5em (1800px) */
+@media only screen and (min-width: 112.5em) {
+    html {
+        font-size: 65%;
+    }
+}

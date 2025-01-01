@@ -5,32 +5,11 @@
     font-family: inherit;
 }
 
-:root {
-    --header-height: 3.5rem;
-    /*========= Colors =========*/
-    --background-color: #ffffff;
-    --default-color: #444444;
-    --heading-color: #040677;
-    --accent-color: #1acc8d;
-    --surface-color: #ffffff;
-    --contrast-color: #ffffff;
-    --light-background-color: #f4f5fe;
-    --nav-background-color: #10058c;
-    /*Color mode HSL(hue, saturation, lightness)*/
-    --black-color: hsl(220, 24%, 12%);
-    --black-color-light: hsl(220, 24%, 15%);
-    --black-color-lighten: hsl(220, 24%, 18%);
-    --body-color: hsl(220, 100%, 97%);
-    /*========= Font and typography =========*/
-    /* 0.5rem = 8px | 1rem = 16px*/
-    --normal-font-size: 0.938rem;
-    /*========= Font Family =========*/
-    --default-font: "Roboto", system-ui;
-    --heading-font: "Raleway", sans-serif;
-    --nav-font: "Poppins", sans-serif;
-    /*========= Font weight =========*/
-    --font-reguler: 400;
-    --font-semi-bold: 600;
+html, body {
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
 
 /*  ******** HTML styling ******** */
@@ -69,6 +48,7 @@ li {
     z-index: 1000;
     box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
     background-color: white;
+    position: relative;
 }
 
 /* ******** nav container styling ******** */
@@ -95,6 +75,10 @@ li {
     text-align: center;
     align-content: center;
     /* cursor: pointer; */
+}
+
+.NavToggle{
+    display: none;
 }
 
 /* ******** nav li styling ******** */
@@ -286,11 +270,16 @@ li {
 
 .MyImg{
     position: absolute;
-    /* background-color: blue; */
-    width: 70.4%;
+    /*background-color: blue;
+    */width: 70.4%;
     height: 72.12%;
     top: 10.7%;
     left: 15%;
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
 }
 
 /* ******** project info styling ******** */
