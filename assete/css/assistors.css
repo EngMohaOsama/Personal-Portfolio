@@ -1,9 +1,38 @@
-.display_flex {
-display: flex;
-cursor: pointer;
+.Flex {
+    display: flex;
 }
 
-.btn{
+.Wrap{
+    flex-direction: wrap;
+}
+
+.Column{
+    flex-direction: column;
+}
+
+.Center{
+    align-items: center;
+}
+
+.SpaceBetween{
+    justify-content: space-between;
+}
+.Pointer{
+    cursor: pointer;
+}
+
+/* ________________ Muli-Uses Classes Styling ________________ */
+
+.relative{
+    position: relative;
+}
+
+.ImgSetting{
+    width: 100%;
+    object-fit: cover;
+}
+
+.Buttons{
     text-transform: uppercase;
     letter-spacing: 2px;
     display: inline-block;
@@ -12,6 +41,18 @@ cursor: pointer;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     transition: transform .3s;
 }
+
+.Buttons:hover{
+    transform: translateY(-3px)
+}
+
+.ButtonBlue{
+    background: #0062b9;
+    color: #fff;
+    padding: 1.5rem 5rem;
+    font-size: 1.6rem;
+}
+
 
 .SectionPadding{
     padding: 12rem 0;
@@ -23,9 +64,6 @@ cursor: pointer;
     width: 92%;
 }
 
-.MarginBot{
-    margin-bottom: 9rem;
-}
 
 .HeaderMain{
     display: block;
@@ -60,3 +98,36 @@ cursor: pointer;
     line-height: 1.6;
 }
 
+.SecondHeaderMain{
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+
+.SecondHeaderSub{
+    font-size: 1.8rem;
+    color: grey;
+    max-width: 60rem;
+    line-height: 1.7;
+}
+
+.MarginBottom9rem{
+    margin-bottom: 9rem;
+}
+
+.MarginBottom1rem{
+    margin-bottom: 1rem;
+}
+
+.MarginBottom4rem{
+    margin-bottom: 4rem;
+}
+
+.MainContainer{
+    max-width: 120rem;
+    margin: auto;
+    width: 92%;
+}
+.MarginBottom11rem{
+    margin-bottom: 11rem;
+}
