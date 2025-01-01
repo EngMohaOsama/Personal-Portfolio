@@ -1,0 +1,62 @@
+.display_flex {
+display: flex;
+cursor: pointer;
+}
+
+.btn{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+}
+
+.SectionPadding{
+    padding: 12rem 0;
+}
+
+.MainContainer{
+    max-width: 120rem;
+    margin: auto;
+    width: 92%;
+}
+
+.MarginBot{
+    margin-bottom: 9rem;
+}
+
+.HeaderMain{
+    display: block;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    position: relative;
+}
+
+.HeaderMain::after{
+    content: "";
+    position: absolute;
+    top: calc(100% + 1.5rem);
+    height: 5px;
+    width: 3rem;
+    background: #0062b9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.HeaderSub{
+    display: block;
+    text-align: center;
+    color: #777;
+    font-size: 2rem;
+    font-weight: 500;
+    max-width: 80rem;
+    margin: auto;
+    line-height: 1.6;
+}
+
