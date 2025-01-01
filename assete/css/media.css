@@ -1,7 +1,10 @@
 /* For screens with a max-width of 37.5em (600px) */
-@media only screen and (max-width: 37.5em) {
+@media  screen and(max-width: 600px) {
 
     /* ******** nav toggle styling ******** */
+    html {
+        font-size: 46%;
+    }
     .NavToggle{
         display: block;
         position: relative;
@@ -123,10 +126,10 @@
 
 
 /* For screens with a max-width of 56.25em (900px) */
-@media only screen and (max-width: 56.25em) {
-    /* html {
+@media  screen and (min-width: 600px) and (max-width: 1200px) {
+    html {
         font-size: 56%;
-    } */
+    }
 
     .HeroSocial {
         display: none;
@@ -174,14 +177,14 @@
 }
 
 /* For screens with a max-width of 75em (1200px) */
-@media only screen and (max-width: 75em) {
+@media  screen and (min-width: 900px) and (max-width: 1799px) {
     html {
         font-size: 59%;
     }
 }
 
 /* For screens with a min-width of 112.5em (1800px) */
-@media only screen and (min-width: 112.5em) {
+@media  screen and (min-width: 1800px) {
     html {
         font-size: 65%;
     }

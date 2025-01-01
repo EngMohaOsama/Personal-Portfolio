@@ -1,15 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
     font-family: inherit;
-}
-
-html, body {
-    width: 100%; 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
 }
 
 /*  ******** HTML styling ******** */
@@ -48,7 +41,6 @@ li {
     z-index: 1000;
     box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
     background-color: white;
-    position: relative;
 }
 
 /* ******** nav container styling ******** */
