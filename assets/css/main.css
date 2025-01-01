@@ -5,13 +5,13 @@
     font-family: inherit;
 }
 
-/*  ******** HTML styling ******** */
+/*   HTML styling  */
 html {
     font-size: 62.5%;
     scroll-behavior: smooth
 }
 
-/*  ******** body styling ******** */
+/*   body styling  */
 body {
     box-sizing: border-box;
     position: relative;
@@ -22,75 +22,77 @@ body {
     color: #333;
 }
 
-/*  ******** general links styling ******** */
+/*   general links styling  */
 a {
     text-decoration: none;
     color: inherit;
     outline: none;
 }
 
-/*  ******** general li styling ******** */
+/*   general li styling  */
 li {
     list-style: none;
+    align-content: center;
 }
 
-/* ________________ header styling ________________ */
+/*  header styling  */
 #header {
     position: fixed;
     width: 100%;
     z-index: 1000;
     box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
     background-color: white;
+    height: 8.306rem;
 }
 
-/* ******** nav container styling ******** */
+/*  nav container styling  */
 .NavContainer{
-    padding: 1rem 5rem;
+    padding: 0.944rem 4.72rem;
+    height: 8.306rem;
 }
 
-/* ******** logo styling ******** */
+/*  logo styling  */
 .LogoFrame{
-    width: 5rem;
-    height: 5rem;
+    width: 4.719rem;
+    height: 4.719rem;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
     background: #0062b9;
-    /* cursor: pointer; */
 }
 
 .LogoTitle {
-    font-size: 1.8rem;
+    font-size: 1.69992rem;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
     text-align: center;
     align-content: center;
-    /* cursor: pointer; */
 }
 
 .NavToggle{
     display: none;
 }
 
-/* ******** nav li styling ******** */
+/*  nav li styling  */
 .NavLink {
-    padding: 2.2rem 3rem;
+    padding: 2.0768rem 2.832rem;
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 1.5104rem;
     color: #333;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
     transition: color .3s;
+    align-content: center;
 }
 
-/* ******** hover on header styling ******** */
+/*  hover on header styling  */
 .OnHover:hover {
     color: #0062b9 !important;
 }
 
-/* ________________ home hero styling ________________ */
+/*  home hero styling  */
 #hero {
     color: #fff;
     position: relative;
@@ -98,7 +100,7 @@ li {
     width: 100%;
     background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url("../img/hero-background/common-bg.svg");
 }
-/* ******** home content styling ******** */
+/*  home content styling  */
 .HeroContainer{
     position: absolute;
     top: 50%;
@@ -111,39 +113,39 @@ li {
 }
 
 .HeroHeader{
-    font-size: 6rem;
+    font-size: 5.664rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
 }
 
 .MarginTop{
-    margin: 3rem auto 0 auto;
+    margin: 2.832rem auto 0 auto;
     max-width: 80rem;
 }
 
 .HeroDescription{
     color: #fff;
-    font-size: 2.2rem;
+    font-size: 2.0768rem;
     text-align: center;
     width: 100%;
     line-height: 1.6;
 }
 
 .HeroButton{
-    margin: 3rem auto 0 auto;
+    margin: 4.72rem auto 0 auto;
     max-width: 80rem;
 }
 
 .HeroBtn{
-    padding: 1.5rem 8rem;
+    padding: 1.416rem 7.552rem;
     font-size: 2rem;
     background: #fff;
     color: #333;
 }
 
 
-/* ******** home social styling ******** */
+/*  home social styling  */
 .HeroSocial{
     position: absolute;
     display: flex;
@@ -151,13 +153,12 @@ li {
     top: 50%;
     transform: translateY(-50%);
     border: 2px solid #eee;
-    border-left: 2px solid #eee;
     z-index: 100;
 }
 
 .SocialContent{
-    width: 5rem;
-    height: 5.6rem;
+    width: 4.719rem;
+    height: 5.334rem;
     align-content: center;
     cursor: pointer;
     transition: background .3s;
@@ -170,14 +171,14 @@ li {
 .SocialLink{
     font-size: 2.5rem;
     width: 100%;
-    padding: 1.2rem;
+    padding: 1.1328rem;
 }
 
 .BorderLineBottom{
     border-bottom: 2px solid #eee;
 }
 
-/* ******** home scroll styling ******** */
+/*  home scroll styling  */
 .HeroScroll{
     position: absolute;
     bottom: 3%;
@@ -215,20 +216,15 @@ li {
     }
 }
 
-/* ________________ About styling ________________ */
-#about{
+/*  About styling  */
+.about{
     background: #fafafa;
-    padding: 12rem 0;
 }
 
-/* ******** main about me container styling ******** */
-.MainContainer{
-    max-width: 120rem;
-    margin: auto;
-    width: 92%;
-}
 
-/* ******** my skills styling ******** */
+/*  main about me container styling  */
+
+/*  my skills styling  */
 .MySkill{
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
@@ -240,21 +236,16 @@ li {
     color: #777;
 }
 
-/* ________________ projects styling ________________ */
-#project{
-    padding: 12rem 0;
-}
+/*  projects styling  */
 
-
-/* ******** project glory styling ******** */
+/*  project glory styling  */
 .ProjectGlory{
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     grid-gap: 5rem;
-    margin-bottom: 11rem;
 }
 
-/* ******** project img styling ******** */
+/*  project img styling  */
 .ProjectRow{
     overflow: hidden;
     position: relative;
@@ -274,7 +265,7 @@ li {
     -o-transform: translate(0%, 0%);
 }
 
-/* ******** project info styling ******** */
+/*  project info styling  */
 .ProjectInfo{
     padding: 2rem 0;
     display: flex;
@@ -295,9 +286,10 @@ li {
     max-width: 60rem;
     line-height: 1.7;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
-/* ________________ contact styling ________________ */
+/*  contact styling  */
 #contact{
     background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url("../img/hero-background/common-bg.svg");
     background-size: cover;
@@ -366,7 +358,7 @@ li {
 .FormSubmit{
     border: none ;
 }
-/* ________________ Footer Styling ________________ */
+/*  Footer Styling  */
 #foot{
     background: #000;
     color: #fff;
@@ -375,7 +367,6 @@ li {
 .FooterMain{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;
     padding: 8rem 0;
 }
 
@@ -398,10 +389,15 @@ li {
     /* width: 45rem; */
 }
 
+.FooterInfo{
+    width: 40%;
+}
+
 .FooterIconContainer{
     margin-top: 2rem;
 }
-.FooterIcon{
+.FooterIcon{   
+    width: 40%; 
     margin-right: 1rem;
     width: 2.5rem;
     font-size: 2.3rem;
@@ -420,3 +416,4 @@ li {
     font-weight: bold;
     margin-left: 2px;
 }
+

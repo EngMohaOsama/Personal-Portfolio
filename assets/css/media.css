@@ -1,10 +1,5 @@
 /* For screens with a max-width of 37.5em (600px) */
 @media  screen and (max-width: 37.5em) {
-
-    /* ******** nav toggle styling ******** */
-    html {
-        font-size: 46%;
-    }
     .NavToggle{
         display: block;
         position: relative;
@@ -38,8 +33,33 @@
         background-color: white;
         width: 100%;
         opacity: 0;
+        display: none;
+    }
+
+    .sec-padding{
+        padding: 8rem 0;
     }
     
+    .HeaderMain{
+        font-size: 4rem;
+    }
+
+    .HeaderSub{
+        font-weight: 400;
+    }
+
+    .SecondHeaderMain{
+        font-size: 2.4rem;
+    }
+
+    .Buttons{
+        padding: 1.5rem 5rem;
+    }
+
+    .MarginBottom9re{
+        margin-bottom: 8rem;
+    }
+
     .HeroHeader {
         font-size: 4.5rem;
     }
@@ -72,12 +92,12 @@
         transform: translate(0, 0);
     }
 
-    .MainContainer h2 {
-        font-size: 2.4rem;
-    }
-
     .ProjectSub {
         font-size: 1.7rem;
+    }
+
+    .ProjectRow{
+        padding: 0 !important;
     }
 
     .ContactForm {
@@ -88,57 +108,106 @@
         margin-bottom: 3rem;
     }
 
-    .FormSubmit {
-        width: 100%;
-    }
-
     .ProjectGlory {
-        height: unset;
-        min-height: unset;
         display: flex;
         flex-wrap: wrap;
+        gap: 2rem;
+        margin-bottom: 8rem 0;
     }
 
-    .ProjectGlory .ProjectRow {
-        padding: 19rem 0 13rem 0;
-        margin: auto;
-        position: static;
-        transform: translate(0, 0);
-
+    .ProjectInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .ProjectHeader {
         font-size: 2.4rem;
     }
 
-    .Buttons.ButtonBlue {
-        margin-right: 0;
-        width: 70%;
-        margin-bottom: 2rem;
-        text-align: center;
+    .FormSubmit{
+        width: 100%;
     }
 
-    .FooterMain {
-        display: block;
+    .FooterMain{
+        display: flex;
+        flex-direction: column-reverse;
     }
 
+    .FooterSocial{
+        margin-bottom: 5rem;
+    }
 }
 
 
 /* For screens with a max-width of 56.25em (900px) */
 @media screen and (max-width: 56.25em) {
-    html {
-        font-size: 56%;
+    .NavLink{
+        font-size: 1.344rem;
+        padding: 2.688rem 1.6128rem;
+    }
+
+    .LogoFrame{
+        width: 4.031rem;
+        height: 4.031rem;
+    }
+
+    .LogoTitle{
+        font-size: 1.6128rem;
     }
 
     .HeroSocial {
         display: none;
     }
 
-    .ProjectRow {
-        grid-template-columns: 1fr;
-        grid-gap: 2rem;
-        margin-bottom: 8rem;
+    .HeroBtn{
+        text-align: center;
+        align-content: center;
+        width: 24.094rem;
+        height: 5.375rem;
+        padding: auto;
+
+    }
+    .sec-padding{
+        padding: 8rem 0;
+    }
+
+    .HeaderMain{
+        font-size: 3.584rem;
+    }
+
+    .HeaderSub{
+        font-size: 1.792rem;
+        font-weight: 400;
+    }
+    .Buttons{
+        padding: 1.344rem 4.48rem;
+    }
+
+    .ProjectGlory {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 8rem 0;
+    }
+
+    .ProjectInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ProjectHeader {
+        font-size: 2.4rem;
+    }
+
+    .ProjectSub {
+        font-size: 1.7rem;
+    }
+
+    .ProjectRow{
+        padding: 0 !important;
     }
 
     .ProjectRow {
@@ -153,18 +222,8 @@
         padding: 0 2rem;
     }
 
-    .LogoFrame {
-        width: 4.5rem;
-        height: 4.5rem;
-        margin-right: 1.2rem;
-    }
-
     .FooterMain {
         padding: 6rem 0;
-    }
-
-    .FooterSecond {
-        margin-bottom: 5rem;
     }
 
     .FooterSecond .FooterIconContainer {
@@ -174,6 +233,17 @@
     .FooterSecond .FooterMain {
         padding: 3.5rem 0;
     }
+    
+    .SectionPadding{
+        padding: 8rem 0;
+    }
+    
+    .FooterSocial{
+        min-width: 11.5rem;
+     }
+     .FooterInfo{
+        width: 100%;
+     }
 }
 
 /* For screens with a max-width of 75em (1200px) */
